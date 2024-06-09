@@ -1,0 +1,135 @@
+body {
+    /*background-image: url('../Media/Fadderuka24.png');*/
+    background-color: #7800f0;
+    background-size: cover; /* Dette gjør at bildet dekker hele skjermen */
+    background-position: center; /* Dette sentrerer bildet */
+    /*holder footer i bunn*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px; /* Juster størrelsen på logoen etter behov */
+    margin-right: auto; /* Plasserer logoen til venstre */
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.velkomsTekst{
+    color: #ffffff;
+    font-size: xxx-large;
+    margin: 1rem;
+    text-shadow: 2px 2px black;
+}
+.dagsOppslag{
+    color: #ffffff;
+    font-size: xx-large;
+}
+
+.countdownTekst{
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+}
+#countdown {
+    color: #FFFF00; /* Velg fargen du ønsker, her er rød som eksempel */
+    font-size: xxx-large;
+    text-shadow: 2px 2px black;
+}
+
+
+footer{
+    color: #ffffff;
+}
+
+.btn-custom {
+    background-color: #dad9ff; /* Bytt ut #yourhexcode med din ønskede farge */
+    color: #000000; /* Tekstfargen, juster etter behov */
+}
+
+/*.btn-custom:hover {
+    background-color: #9595f9; !* En mørkere farge for hover-effekt, juster etter behov *!
+    color: #ffffff; !* Tekstfargen, juster etter behov *!
+}*/
+
+.bg-custom{
+    background-color: #2f0b63;
+    color: #ffffff;
+}
+.bg-custom:hover{
+    background-color: #9359ef;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Tiempos Headline';
+    src: url('../Media/Tiempos-Headline-Light.ttf') format('woff2'),
+    url('../Media/Tiempos-Headline-Light.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bruk fonten */
+body, header {
+    font-family: 'Tiempos Headline', serif;
+}
+
+/* Sørg for at hele høyden av siden blir brukt */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Gjør at hovedinnholdet fyller tilgjengelig plass */
+main {
+    flex: 1 0 auto;
+}
+
+/* Style for footeren */
+footer {
+    flex-shrink: 0;
+}
+
+.card-img-top{
+    width: 50%;
+    margin: 1rem auto 0 auto;
+    display: block;
+}
+
+.logo{
+    margin: 1rem;
+}
+
+.scroll-container {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.scroll-container .card {
+    display: inline-block;
+    margin-right: 2rem; /* Mellomrom mellom kortene */
+    flex: 0 0 auto;
+}
+.card-title {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-text {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
