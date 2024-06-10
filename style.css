@@ -69,8 +69,8 @@ footer{
 
 @font-face {
     font-family: 'Tiempos Headline';
-    src: url('../Media/Tiempos-Headline-Light.ttf') format('woff2'),
-    url('../Media/Tiempos-Headline-Light.ttf') format('woff');
+    src: url('Media/Tiempos-Headline-Light.ttf') format('woff2'),
+    url('Media/Tiempos-Headline-Light.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
